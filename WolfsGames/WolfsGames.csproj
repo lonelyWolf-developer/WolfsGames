@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-WolfsGames-5c8dc9e8-3a16-410c-a079-f88aa7c3f462</UserSecretsId>
   </PropertyGroup>
@@ -13,6 +12,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WolfsGames.Data\WolfsGames.Data.csproj" />
+    <ProjectReference Include="..\WolfsGames.Managers\WolfsGames.Managers.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfsGames", "WolfsGames\WolfsGames.csproj", "{37AA07EE-2D9A-432C-8F86-44C296D0467A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WolfsGames", "WolfsGames\WolfsGames.csproj", "{37AA07EE-2D9A-432C-8F86-44C296D0467A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfsGames.Managers", "WolfsGames.Managers\WolfsGames.Managers.csproj", "{2E4F3A4B-5603-49A0-9419-CD903AE99FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfsGames.Data", "WolfsGames.Data\WolfsGames.Data.csproj", "{F14C4898-28D4-4756-8C4E-31CB88FF7674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{37AA07EE-2D9A-432C-8F86-44C296D0467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37AA07EE-2D9A-432C-8F86-44C296D0467A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37AA07EE-2D9A-432C-8F86-44C296D0467A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4F3A4B-5603-49A0-9419-CD903AE99FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4F3A4B-5603-49A0-9419-CD903AE99FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4F3A4B-5603-49A0-9419-CD903AE99FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4F3A4B-5603-49A0-9419-CD903AE99FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14C4898-28D4-4756-8C4E-31CB88FF7674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14C4898-28D4-4756-8C4E-31CB88FF7674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14C4898-28D4-4756-8C4E-31CB88FF7674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14C4898-28D4-4756-8C4E-31CB88FF7674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
