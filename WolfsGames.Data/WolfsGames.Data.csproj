@@ -16,4 +16,10 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
