@@ -36,5 +36,10 @@ namespace WolfsGames.Data.Models
 		[Display(Name = "Url")]
 		[RegularExpression(@"^[a-z0-9\-]+$", ErrorMessage = "Použivejte jen malá písmena bez diakritiky nebo číslice.")]
 		public string Url { get; set; }
+
+		public NumSeries()
+		{
+			
+		}
 	}
 }
