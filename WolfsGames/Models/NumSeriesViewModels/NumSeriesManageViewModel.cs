@@ -8,7 +8,7 @@ namespace WolfsGames.Models.NumSeriesViewModels
 
 		public IFormFile Image { get; set; }
 		
-		public string Formcaption { get; set; }
+		public string FormCaption { get; set; }
 
 		public NumSeriesManageViewModel() 
 		{
