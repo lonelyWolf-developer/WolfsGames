@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WolfsGames.Data;
+using WolfsGames.Data.Interfaces;
 using WolfsGames.Data.Models;
+using WolfsGames.Data.Repositories;
 using WolfsGames.Managers.Interfaces;
 using WolfsGames.Managers.Managers;
 
@@ -22,6 +24,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 }).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+builder.Services.AddScoped<INumRepository, NumRepository>();
 
 builder.Services.AddScoped<INumManager, NumManager>();
 

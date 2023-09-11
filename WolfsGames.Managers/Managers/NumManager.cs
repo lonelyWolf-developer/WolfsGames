@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using WolfsGames.Data.Interfaces;
 using WolfsGames.Data.Models;
-using WolfsGames.Managers.Classes;
 using WolfsGames.Managers.Interfaces;
 
 namespace WolfsGames.Managers.Managers

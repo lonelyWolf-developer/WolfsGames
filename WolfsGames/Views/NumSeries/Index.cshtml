@@ -1,0 +1,21 @@
+﻿@model WolfsGames.Models.NumSeriesViewModels.NumSeriesIndexViewModel;
+
+@{
+	ViewData["Title"] = "Číselné řady";
+}
+
+<div>
+	@if (Model.Series.Any())
+	{
+		@foreach(var numSer in Model.Series){
+			Model.NumSeries = numSer;
+
+			<h2><a asp-action="Detail" asp-route-url="@Model.NumSeries.Url">Model.NumSeries.Name</a></h2>
+		}
+	}
+	else
+	{
+		<h2>Žádné hry nenalezeny...</h2>
+	}
+
+</div>
